@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.kalunga.com.br",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 40000,
+  "requestTimeout": 90000,
+  "responseTimeout": 90000,
+  "video": true,
+  "waitForAnimations": true,
+  "reporter": "junit",
+  "reporterOptions": {
+      "mochaFile": "results/e2e-test-report-[hash].xml"
+  },
+  "viewportWidth": 1280,
+  "viewportHeight": 720
+}
