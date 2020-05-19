@@ -4,7 +4,7 @@ const CommonData = require("../support/contextTestFiles/Common/common.data");
 
 Cypress.Commands.add("searchProduct", product => {
   cy.server();
-  cy.route(CommonData.request.post, CommonData.endpoint.searchProduct).as(
+  cy.route(CommonData.httpVerb.post, CommonData.endpoint.searchProduct).as(
     "searchProduct"
   );
   cy.get(SearchElement.searchProduct.searchInput).type(product, {
@@ -17,7 +17,7 @@ Cypress.Commands.add("searchProduct", product => {
 
 Cypress.Commands.add("addProduct", () => {
   cy.server();
-  cy.route(CommonData.request.post, CommonData.endpoint.addProduct).as(
+  cy.route(CommonData.httpVerb.post, CommonData.endpoint.addProduct).as(
     "addProduct"
   );
   cy.xpath(CommonElement.searchProduct.addProduct, { timeout: 3000 }).click();

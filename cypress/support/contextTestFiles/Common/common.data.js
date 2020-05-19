@@ -1,5 +1,5 @@
 module.exports = {
-  request: {
+  httpVerb: {
     post: 'POST',
   },
   endpoint: {
