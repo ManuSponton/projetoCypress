@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="88.416" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-19T22:46:23" tests="0" file="cypress\integration\features\cartPage.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Cart Page" timestamp="2020-05-19T22:46:24" tests="3" failures="0" time="88.416">
+    <testcase name="Cart Page Should add a product to the shopping cart" time="41.818" classname="Should add a product to the shopping cart">
+    </testcase>
+    <testcase name="Cart Page Should change the quantity of product" time="24.016" classname="Should change the quantity of product">
+    </testcase>
+    <testcase name="Cart Page Should remove one product from my cart" time="22.582" classname="Should remove one product from my cart">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -36,7 +36,10 @@ Esta é uma boa prática que a própria ferramenta recomenda em sua documentaç�
 
 No arquivo Cypress.json é possível ativar a geração de vídeos, através do parâmetros "video" e também configurar o relatório de execução dos testes através dos parâmetros "reporter" e reporterOptions.
 
-Na pasta "resultFailedTests" deixei exemplos de report e vídeo de um cenário com falha.
+Na pasta "cypress/videos/features" estão os vídeos gerados a partir da última execução de testes realizado.
+Na pasta "results" estão os reports em xml com o resultado da execução.
+
+Na pasta "resultFailedTests" deixei exemplos de report e vídeo de cenários com falha.
 Estes artefatos podem ser publicados, em caso de falha, no ambiente de CI.
 
 # Informações Adicionais

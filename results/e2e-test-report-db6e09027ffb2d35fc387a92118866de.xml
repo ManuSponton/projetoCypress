@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.260999999999996" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-19T22:48:18" tests="0" file="cypress\integration\features\searchPage.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Search Page" timestamp="2020-05-19T22:48:18" tests="2" failures="0" time="54.260999999999996">
+    <testcase name="Search Page Should search a product" time="21.883" classname="Should search a product">
+    </testcase>
+    <testcase name="Search Page Should search for non-existent product" time="32.378" classname="Should search for non-existent product">
+    </testcase>
+  </testsuite>
+</testsuites>
