@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-05-19T22:23:00" tests="0" file="cypress\integration\features\cartPage.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Cart Page" timestamp="2020-05-19T22:23:00" tests="3" failures="3" time="0">
+    <testcase name="Cart Page Should add a product to the shopping cart" time="0" classname="Should add a product to the shopping cart">
+      <failure message="Timed out retrying: expected &apos;&lt;h5.font-weight-bold&gt;&apos; to have text &apos;Resumo do Pedido.&apos;, but the text was &apos;Resumo do Pedido&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<h5.font-weight-bold>' to have text 'Resumo do Pedido.', but the text was 'Resumo do Pedido'
+    at applyChainer (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131898:32)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131940:16
+    at arrayReduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:18578:21)
+    at Function.reduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:27576:14)
+    at applyChainers (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131929:22)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Function.Promise.attempt.Promise.try (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:6339:29)
+    at Context.shouldFn (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131946:26)
+    at Context.should (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131964:23)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:127819:39
+    at assertions (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:128079:14)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Object.gotValue (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8209:18)
+    at Object.gotAccum (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8196:25)
+    at Object.tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:7000:31)]]></failure>
+    </testcase>
+    <testcase name="Cart Page Should change the quantity of product" time="0" classname="Should change the quantity of product">
+      <failure message="Timed out retrying: expected &apos;&lt;h5.font-weight-bold&gt;&apos; to have text &apos;Resumo do Pedido.&apos;, but the text was &apos;Resumo do Pedido&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<h5.font-weight-bold>' to have text 'Resumo do Pedido.', but the text was 'Resumo do Pedido'
+    at applyChainer (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131898:32)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131940:16
+    at arrayReduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:18578:21)
+    at Function.reduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:27576:14)
+    at applyChainers (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131929:22)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Function.Promise.attempt.Promise.try (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:6339:29)
+    at Context.shouldFn (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131946:26)
+    at Context.should (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131964:23)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:127819:39
+    at assertions (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:128079:14)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Object.gotValue (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8209:18)
+    at Object.gotAccum (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8196:25)
+    at Object.tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:7000:31)]]></failure>
+    </testcase>
+    <testcase name="Cart Page Should remove one product from my cart" time="0" classname="Should remove one product from my cart">
+      <failure message="Timed out retrying: expected &apos;&lt;h5.font-weight-bold&gt;&apos; to have text &apos;Resumo do Pedido.&apos;, but the text was &apos;Resumo do Pedido&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<h5.font-weight-bold>' to have text 'Resumo do Pedido.', but the text was 'Resumo do Pedido'
+    at applyChainer (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131898:32)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131940:16
+    at arrayReduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:18578:21)
+    at Function.reduce (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:27576:14)
+    at applyChainers (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131929:22)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Function.Promise.attempt.Promise.try (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:6339:29)
+    at Context.shouldFn (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131946:26)
+    at Context.should (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:131964:23)
+    at https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:127819:39
+    at assertions (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:128079:14)
+    at tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Object.gotValue (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8209:18)
+    at Object.gotAccum (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:8196:25)
+    at Object.tryCatcher (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://www.kalunga.com.br/__cypress/runner/cypress_runner.js:7000:31)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
