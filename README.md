@@ -1,3 +1,14 @@
+# Execução dos Testes
+
+Para executar este projeto na sua máquina é necessário que o Node.js esteja instalado.
+Após, na raiz do projeto, executar o comando "npm i". Pode ser necessário executar o npm audit fix --force para instalar todas as depedências.
+
+Para rodar os testes, na raiz do projeto execute:
+
+- "npm run test:e2e:ci" para executar no modo headless;
+- "npm run test:e2e:ci:headed" para executar no modo headed;
+- "npm run cypress:open" para abrir a interface do Cypress;
+
 # Arquitetura de Testes
 
 ## Pastas
@@ -42,7 +53,7 @@ Na pasta "results" estão os reports em xml com o resultado da execução.
 Na pasta "resultFailedTests" deixei exemplos de report e vídeo de cenários com falha.
 Estes artefatos podem ser publicados, em caso de falha, no ambiente de CI.
 
-# Informações Adicionais
+## Informações Adicionais
 
 Adicionei a este projeto o eslint para automatizar a identificação de inconsistências que poderiam ser pegas em code review manual. 
 Adicionei o arquivo Dockerfile para simular a criação de um container para um ambiente de CI.
