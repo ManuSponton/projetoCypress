@@ -21,5 +21,5 @@ Then('I will see an alert message', function () {
 });
 
 And('suggestions for other products', function () {
-  //todo
+  SearchFunction.seeProductsSuggestions();
 });
