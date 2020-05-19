@@ -13,5 +13,10 @@ module.exports = {
     subtotal: 'Subtotal',
     total: 'Total',
     checkoutButton: 'Finalizar Compra'
+  },
+  emptyCart: {
+    emptyCartTitle: 'Seu Carrinho de Compras está vazio.',
+    emptyCartMessage: 'Insira já produtos ao seu Carrinho.',
+    emptyCartSubMessage: 'Navegue pelas categorias ou utilize a busca do site, ao encontrar os produtos desejados, clique no botão comprar.'
   }
 }

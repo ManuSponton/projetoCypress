@@ -3,7 +3,6 @@ const CartData = require('../CartPage/cartPage.data');
 const CommonElement = require('../Common/common.element');
 
 module.exports = {
-
     seeTheProductInTheShoppingCart: function () {
         cy.get(CartElement.header.cartIcon)
             .click();
@@ -41,5 +40,22 @@ module.exports = {
             .click();
         cy.get(CartElement.cartDetails.quantityField)
             .should(CommonElement.constant.haveValue, CartData.cartDetails.quantityWithValue2);
+    },
+    removeProduct: function () {
+        cy.get(CartElement.cartDetails.removeButton)
+            .click();
+        cy.xpath(CartElement.cartDetails.confirmRemove)
+            .click();
+    },
+    seeEmptyCartMessage: function () {
+        cy.get(CartElement.emptyCart.emptyCartTitle)
+            .should(CommonElement.constant.haveText, CartData.emptyCart.emptyCartTitle)
+            .should(CommonElement.constant.beVisible);
+        cy.get(CartElement.emptyCart.emptyCartMessage)
+            .should(CommonElement.constant.haveText, CartData.emptyCart.emptyCartMessage)
+            .should(CommonElement.constant.beVisible);
+        cy.get(CartElement.emptyCart.emptyCartSubMessage)
+            .should(CommonElement.constant.haveText, CartData.emptyCart.emptyCartSubMessage)
+            .should(CommonElement.constant.beVisible);
     }
 }
