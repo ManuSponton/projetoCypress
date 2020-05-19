@@ -4,9 +4,9 @@ const CommonElement = require('../Common/common.element');
 
 module.exports = {
   seeTheSearchPageInformation: function () {
-    cy.get(SearchElement.header.logoKalunga, { timeout: 120000 })
+    cy.get(SearchElement.header.logoKalunga)
       .should(CommonElement.constant.beVisible)
-    cy.get(SearchElement.header.userName, { timeout: 120000 })
+    cy.get(SearchElement.header.userName)
       .should(CommonElement.constant.haveText, SearchData.header.userName);
   },
   seeListOfProducts: function () {

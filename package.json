@@ -8,13 +8,7 @@
         "test:e2e:ci": "cypress run --env NODE_ENV=ci",
         "test:e2e:local": "cypress run --env NODE_ENV=local",
         "test:e2e:ci:headed": "cypress run --env NODE_ENV=ci --headed",
-        "cypress:open": "cypress open --env NODE_ENV=ci",
-        "e2e:ci:mobile": "cypress run --config viewportWidth=375,viewportHeight=812  --env NODE_ENV=ci",
-        "e2e:ci:tablet": "cypress run --config viewportWidth=768,viewportHeight=800  --env NODE_ENV=ci",
-        "e2e:ci:desktop": "cypress run --config viewportWidth=1280,viewportHeight=720  --env NODE_ENV=ci",
-        "e2e:mobile": "cypress open --config viewportWidth=375,viewportHeight=812  --env NODE_ENV=ci",
-        "e2e:tablet": "cypress open --config viewportWidth=768,viewportHeight=800  --env NODE_ENV=ci",
-        "e2e:desktop": "cypress open --config viewportWidth=1280,viewportHeight=720  --env NODE_ENV=ci"
+        "cypress:open": "cypress open --env NODE_ENV=ci"
     },
     "devDependencies": {
         "cypress": "4.5.0",
